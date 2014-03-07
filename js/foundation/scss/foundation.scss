@@ -1,7 +1,3 @@
-// Foundation by ZURB
-// foundation.zurb.com
-// Licensed under MIT Open Source 
-
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
@@ -29,7 +25,6 @@
   "foundation/components/panels",
   "foundation/components/pricing-tables",
   "foundation/components/progress-bars",
-  "foundation/components/range-slider",
   "foundation/components/reveal",
   "foundation/components/side-nav",
   "foundation/components/split-buttons",
@@ -41,8 +36,5 @@
   "foundation/components/tooltips",
   "foundation/components/top-bar",
   "foundation/components/type",
-  "foundation/components/offcanvas", 
-  "foundation/components/visibility",
-  "app";
-
-  // * { border-radius: 500px !important; }
+  "foundation/components/offcanvas",
+  "foundation/components/visibility";

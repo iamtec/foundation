@@ -1,0 +1,21 @@
+#fixie {
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	z-index:10;
+	.columns {
+		background: rgba(255,0,0,.2);
+		.red {
+			background: red;
+			opacity: .2;
+		}
+	}
+} 
+#grid-button {
+	position: fixed;
+	right:50px;
+	bottom: 50px;
+	z-index:15;
+}
