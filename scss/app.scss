@@ -1,3 +1,12 @@
+//Set up normal fonts as proxima, and headers as futura
+*{
+	font-family:$proxima;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $futura;
+}
+
+
 //MEDIA QUERIES
 
 //PHONE PORTRAIT 
