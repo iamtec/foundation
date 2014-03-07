@@ -3,7 +3,14 @@
 //PHONE PORTRAIT 
 //	below 480px
 @media only screen and (max-width: 30em) { 
+	.row {
+		padding: 0 10px;
+	}
 
+	.columns, .column {
+		padding-left: rem-calc(5);
+		padding-right: rem-calc(5);
+	}
 
 
 } 
@@ -12,8 +19,15 @@
 //PHONE LANDSCAPE  
 //	480px - 768px
 @media only screen and (min-width: 30.063em) and (max-width: 48em) { 
+	.row {
+		padding: 0 4px;
+	}
 
 
+	.columns, .column {
+		padding-left: rem-calc(8);
+		padding-right: rem-calc(8);
+	}
 
 } 
 
@@ -21,7 +35,14 @@
 //TABLET PORTRAIT  
 //	768px - 1024px
 @media only screen and (min-width: 48.063em) and (max-width: 64em) { 
+	.row {
+		padding: 0 28px;
+	}
 
+	.columns, .column {
+		padding-left: rem-calc(11);
+		padding-right: rem-calc(11);
+	}
 
 
 }
@@ -30,8 +51,15 @@
 //TABLET LANDSCAPE    
 //	1024px - 1366px
 @media only screen and (min-width: 64.063em) and (max-width: 85em) { 
+	.row {
+		padding: 0 14px;
+	}
 
 
+	.columns, .column {
+		padding-left: rem-calc(18);
+		padding-right: rem-calc(18);
+	}
 
 } 
 
@@ -40,8 +68,13 @@
 //DESKTOP   
 //	1366px and above
 @media only screen and (min-width: 85.063em)  { 
-
-
+	.row {
+		padding: 0 15px;
+	}
+	.columns, .column {
+		padding-left: rem-calc(20);
+		padding-right: rem-calc(20);
+	}
 } 
 
 
@@ -62,8 +95,11 @@
 	left:0;
 	bottom:0;
 	z-index:10;
-	.columns {
+	.row {
 		background: rgba(255,0,0,.2);
+	}
+	.columns {
+		//background: rgba(255,0,0,.2);
 		.red {
 			background: red;
 			opacity: .2;

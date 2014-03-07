@@ -36,7 +36,7 @@
 // $include-xl-html-grid-classes: false;
 
 // $row-width: rem-calc(1000);
-// $column-gutter: rem-calc(30);
+ $column-gutter: rem-calc(16);
  $total-columns: 12;
 
 // We use these to control various global styles
@@ -72,11 +72,11 @@
 // $shiny-edge-active-color: rgba(#000, .2);
 
 // Media Query Ranges
-$small-range: (0em, 30em);
-$medium-range: (30.063em, 64em);
-$large-range: (64.063em, 90em);
-$xlarge-range: (90.063em, 120em);
-$xxlarge-range: (120.063em);
+$small-range: (0em, 29.937em);
+$medium-range: (30em, 63.937em);
+$large-range: (64em, 89.937em);
+$xlarge-range: (90em, 119.937em);
+$xxlarge-range: (120em);
 
 // $screen: "only screen";
 
