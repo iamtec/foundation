@@ -1,6 +1,7 @@
 
 
 @font-face {
+
     font-family: 'proxima';
     src: url('../fonts/proxima_nova_reg-webfont.eot');
     src: url('../fonts/proxima_nova_reg-webfont.eot?#iefix') format('embedded-opentype'),
@@ -12,6 +13,18 @@
 
 }
 
+@font-face {
+
+    font-family: 'proxima_bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNova-Bold.woff') format('woff'),
+         url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+         url('../fonts/ProximaNova-Bold.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
@@ -30,3 +43,4 @@
 
 $futura: 'futura', 'Arial Black', sans-serif;
 $proxima: 'proxima', 'Gill Sans', Helvetica;
+$proxima_bold: 'proxima_bold', 'Gill Sans', Helvetica;

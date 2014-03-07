@@ -6,16 +6,21 @@ $(function(){
 	$('#fixie .columns').css({'height':height});
 	$('#fixie .red').css({'height':height});
 
-$(window).resize(function() {
+	$(window).resize(function() {
 
-	var height = $('#fixie').height();
-	$('#fixie .columns').css({'height':height});
-	$('#fixie .red').css({'height':height});
-});
-$('#fixie').toggle();
-
-		$('#grid-button').click(function(e){
-			$('#fixie').fadeToggle();
-			e.preventDefault();
-			});
+		var height = $('#fixie').height();
+		$('#fixie .columns').css({'height':height});
+		$('#fixie .red').css({'height':height});
 	});
+	$('#fixie').toggle();
+
+	$('#grid-button').click(function(e){
+		$('#fixie').fadeToggle();
+		e.preventDefault();
+		});
+
+
+
+
+$('*').removeAttr('style' );
+});
