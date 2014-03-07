@@ -1,3 +1,60 @@
+//MEDIA QUERIES
+
+//PHONE PORTRAIT 
+//	below 480px
+@media only screen and (max-width: 30em) { 
+
+
+
+} 
+
+
+//PHONE LANDSCAPE  
+//	480px - 768px
+@media only screen and (min-width: 30.063em) and (max-width: 48em) { 
+
+
+
+} 
+
+
+//TABLET PORTRAIT  
+//	768px - 1024px
+@media only screen and (min-width: 48.063em) and (max-width: 64em) { 
+
+
+
+}
+
+
+//TABLET LANDSCAPE    
+//	1024px - 1366px
+@media only screen and (min-width: 64.063em) and (max-width: 85em) { 
+
+
+
+} 
+
+
+
+//DESKTOP   
+//	1366px and above
+@media only screen and (min-width: 85.063em)  { 
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+//GRID BUTTON and GRID VIEW
+
 #fixie {
 	position: fixed;
 	top:0;
