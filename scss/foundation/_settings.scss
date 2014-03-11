@@ -33,7 +33,7 @@
 // Grid
 
 // $include-html-grid-classes: $include-html-classes;
-// $include-xl-html-grid-classes: false;
+ $include-xl-html-grid-classes: true;
 
 $row-width: rem-calc(1600);
  $column-gutter: rem-calc(16);
@@ -41,7 +41,7 @@ $row-width: rem-calc(1600);
 
 // We use these to control various global styles
 // $body-bg: #fff;
-// $body-font-color: #222;
+ $body-font-color: #eee;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -55,7 +55,7 @@ $row-width: rem-calc(1600);
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+ $primary-color: #279d5e;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -120,7 +120,7 @@ $xxlarge-range: (120em);
 // $header-font-family: $body-font-family;
 // $header-font-weight: normal;
 // $header-font-style: normal;
-// $header-font-color: #222;
+ $header-font-color: #eee;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -1032,25 +1032,25 @@ $xxlarge-range: (120em);
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: #fff;
+ $table-bg: #003b1b;
 // $table-even-row-bg: #f9f9f9  ;
 
 // These control the table cell border style
 // $table-border-style: solid;
 // $table-border-size: 1px;
-// $table-border-color: #ddd;
+ $table-border-color: $primary-color;
 
 // These control the table head styles
 // $table-head-bg: #f5f5f5  ;
 // $table-head-font-size: rem-calc(14);
-// $table-head-font-color: #222;
+  $table-head-font-color: #eee;
 // $table-head-font-weight: bold;
 // $table-head-padding: rem-calc(8 10 10);
 
 // These control the row padding and font styles
 // $table-row-padding: rem-calc(9 10);
 // $table-row-font-size: rem-calc(14);
-// $table-row-font-color: #222;
+ $table-row-font-color: #eee;
 // $table-line-height: rem-calc(18);
 
 // These are for controlling the display and margin of tables
