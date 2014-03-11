@@ -1,173 +1,3 @@
-//FONT SIZE
-	
-	// To make changes here just change the number in "rem-calc(100)" 
-	// to the pixel number you'd like to see
-		
-		//FUTURA
-			//Futura Mobile font size
-			$h1-mobile-futura-size: rem-calc(60);
-			$h2-mobile-futura-size: rem-calc(48);
-			$h3-mobile-futura-size: rem-calc(36);
-			$h4-mobile-futura-size: rem-calc(30);
-			$h5-mobile-futura-size: rem-calc(20);
-			$h6-mobile-futura-size: rem-calc(18);
-			$paragraph-mobile-futura-size: rem-calc(16);
-			$caption-mobile-futura-size: rem-calc(15);
-
-			//Futura Mobile line-height
-			$h1-mobile-futura-line-height: rem-calc(72);
-			$h2-mobile-futura-line-height: rem-calc(54);
-			$h3-mobile-futura-line-height: rem-calc(42);
-			$h4-mobile-futura-line-height: rem-calc(36);
-			$h5-mobile-futura-line-height: rem-calc(30);
-			$h6-mobile-futura-line-height: rem-calc(27);
-			$paragraph-mobile-futura-line-height: rem-calc(24);
-			$caption-mobile-futura-line-height: rem-calc(18);
-
-
-			//Futura Tablet font size
-			$h1-tablet-futura-size: rem-calc(60);
-			$h2-tablet-futura-size: rem-calc(48);
-			$h3-tablet-futura-size: rem-calc(36);
-			$h4-tablet-futura-size: rem-calc(30);
-			$h5-tablet-futura-size: rem-calc(20);
-			$h6-tablet-futura-size: rem-calc(18);
-			$paragraph-tablet-futura-size: rem-calc(16);
-			$caption-tablet-futura-size: rem-calc(15);
-
-			//Futura Tablet line-height
-			$h1-tablet-futura-line-height: rem-calc(72);
-			$h2-tablet-futura-line-height: rem-calc(54);
-			$h3-tablet-futura-line-height: rem-calc(42);
-			$h4-tablet-futura-line-height: rem-calc(36);
-			$h5-tablet-futura-line-height: rem-calc(30);
-			$h6-tablet-futura-line-height: rem-calc(27);
-			$paragraph-tablet-futura-line-height: rem-calc(24);
-			$caption-tablet-futura-line-height: rem-calc(18);
-
-
-			//Futura Desktop font size
-			$h1-desktop-futura-size: rem-calc(60);
-			$h2-desktop-futura-size: rem-calc(48);
-			$h3-desktop-futura-size: rem-calc(36);
-			$h4-desktop-futura-size: rem-calc(30);
-			$h5-desktop-futura-size: rem-calc(20);
-			$h6-desktop-futura-size: rem-calc(18);
-			$paragraph-desktop-futura-size: rem-calc(16);
-			$caption-desktop-futura-size: rem-calc(15);
-
-			//Futura Desktop line-height
-			$h1-desktop-futura-line-height: rem-calc(72);
-			$h2-desktop-futura-line-height: rem-calc(54);
-			$h3-desktop-futura-line-height: rem-calc(42);
-			$h4-desktop-futura-line-height: rem-calc(36);
-			$h5-desktop-futura-line-height: rem-calc(30);
-			$h6-desktop-futura-line-height: rem-calc(27);
-			$paragraph-desktop-futura-line-height: rem-calc(24);
-			$caption-desktop-futura-line-height: rem-calc(18);
-
-			//Futura XL Desktop font size
-			$h1-xl-desktop-futura-size: rem-calc(60);
-			$h2-xl-desktop-futura-size: rem-calc(48);
-			$h3-xl-desktop-futura-size: rem-calc(36);
-			$h4-xl-desktop-futura-size: rem-calc(30);
-			$h5-xl-desktop-futura-size: rem-calc(20);
-			$h6-xl-desktop-futura-size: rem-calc(18);
-			$paragraph-xl-desktop-futura-size: rem-calc(16);
-			$caption-xl-desktop-futura-size: rem-calc(15);
-
-			//Futura XL Desktop line-height
-			$h1-xl-desktop-futura-line-height: rem-calc(72);
-			$h2-xl-desktop-futura-line-height: rem-calc(54);
-			$h3-xl-desktop-futura-line-height: rem-calc(42);
-			$h4-xl-desktop-futura-line-height: rem-calc(36);
-			$h5-xl-desktop-futura-line-height: rem-calc(30);
-			$h6-xl-desktop-futura-line-height: rem-calc(27);
-			$paragraph-xl-desktop-futura-line-height: rem-calc(24);
-			$caption-xl-desktop-futura-line-height: rem-calc(18);
-
-		//PROXIMA
-			//Proxima Mobile font size
-			$h1-mobile-proxima-size: rem-calc(60);
-			$h2-mobile-proxima-size: rem-calc(44);
-			$h3-mobile-proxima-size: rem-calc(34);
-			$h4-mobile-proxima-size: rem-calc(28);
-			$h5-mobile-proxima-size: rem-calc(24);
-			$h6-mobile-proxima-size: rem-calc(18);
-			$paragraph-mobile-proxima-size: rem-calc(16);
-			$caption-mobile-proxima-size: rem-calc(14);
-
-			//Proxima Mobile line-height
-			$h1-mobile-proxima-line-height: rem-calc(72);
-			$h2-mobile-proxima-line-height: rem-calc(54);
-			$h3-mobile-proxima-line-height: rem-calc(42);
-			$h4-mobile-proxima-line-height: rem-calc(36);
-			$h5-mobile-proxima-line-height: rem-calc(30);
-			$h6-mobile-proxima-line-height: rem-calc(27);
-			$paragraph-mobile-proxima-line-height: rem-calc(24);
-			$caption-mobile-proxima-line-height: rem-calc(18);
-
-
-			//Proxima Tablet font size
-			$h1-tablet-proxima-size: rem-calc(60);
-			$h2-tablet-proxima-size: rem-calc(44);
-			$h3-tablet-proxima-size: rem-calc(34);
-			$h4-tablet-proxima-size: rem-calc(28);
-			$h5-tablet-proxima-size: rem-calc(24);
-			$h6-tablet-proxima-size: rem-calc(18);
-			$paragraph-tablet-proxima-size: rem-calc(16);
-			$caption-tablet-proxima-size: rem-calc(14);
-
-			//Proxima Tablet line-height
-			$h1-tablet-proxima-line-height: rem-calc(72);
-			$h2-tablet-proxima-line-height: rem-calc(54);
-			$h3-tablet-proxima-line-height: rem-calc(42);
-			$h4-tablet-proxima-line-height: rem-calc(36);
-			$h5-tablet-proxima-line-height: rem-calc(30);
-			$h6-tablet-proxima-line-height: rem-calc(27);
-			$paragraph-tablet-proxima-line-height: rem-calc(24);
-			$caption-tablet-proxima-line-height: rem-calc(18);
-
-
-			//Proxima Desktop font size
-			$h1-desktop-proxima-size: rem-calc(60);
-			$h2-desktop-proxima-size: rem-calc(44);
-			$h3-desktop-proxima-size: rem-calc(34);
-			$h4-desktop-proxima-size: rem-calc(28);
-			$h5-desktop-proxima-size: rem-calc(24);
-			$h6-desktop-proxima-size: rem-calc(18);
-			$paragraph-desktop-proxima-size: rem-calc(16);
-			$caption-desktop-proxima-size: rem-calc(14);
-
-			//Proxima Desktop line-height
-			$h1-desktop-proxima-line-height: rem-calc(72);
-			$h2-desktop-proxima-line-height: rem-calc(54);
-			$h3-desktop-proxima-line-height: rem-calc(42);
-			$h4-desktop-proxima-line-height: rem-calc(36);
-			$h5-desktop-proxima-line-height: rem-calc(30);
-			$h6-desktop-proxima-line-height: rem-calc(27);
-			$paragraph-desktop-proxima-line-height: rem-calc(24);
-			$caption-desktop-proxima-line-height: rem-calc(18);
-
-			//Proxima XL Desktop font size
-			$h1-xl-desktop-proxima-size: rem-calc(60);
-			$h2-xl-desktop-proxima-size: rem-calc(44);
-			$h3-xl-desktop-proxima-size: rem-calc(34);
-			$h4-xl-desktop-proxima-size: rem-calc(28);
-			$h5-xl-desktop-proxima-size: rem-calc(24);
-			$h6-xl-desktop-proxima-size: rem-calc(18);
-			$paragraph-xl-desktop-proxima-size: rem-calc(16);
-			$caption-xl-desktop-proxima-size: rem-calc(14);
-
-			//Proxima XL Desktop line-height
-			$h1-xl-desktop-proxima-line-height: rem-calc(72);
-			$h2-xl-desktop-proxima-line-height: rem-calc(54);
-			$h3-xl-desktop-proxima-line-height: rem-calc(42);
-			$h4-xl-desktop-proxima-line-height: rem-calc(36);
-			$h5-xl-desktop-proxima-line-height: rem-calc(30);
-			$h6-xl-desktop-proxima-line-height: rem-calc(27);
-			$paragraph-xl-desktop-proxima-line-height: rem-calc(200);
-			$caption-xl-desktop-proxima-line-height: rem-calc(18);
 
 //COLORS
 body {
@@ -625,60 +455,60 @@ h1, h2, h3, h4, h5, h6 {
 		padding-right: rem-calc(20);
 	}
 	h1 {
-		font-size: $h1-desktop-futura-size;
-		line-height: $h1-desktop-futura-line-height;
+		font-size: $h1-xl-desktop-futura-size;
+		line-height: $h1-xl-desktop-futura-line-height;
 		span {
-			font-size: $h1-desktop-futura-size;
-			line-height: $h1-desktop-futura-line-height;
+			font-size: $h1-xl-desktop-futura-size;
+			line-height: $h1-xl-desktop-futura-line-height;
 		}
 	}
 	h2 {
-		font-size: $h2-desktop-futura-size;
-		line-height: $h2-desktop-futura-line-height;
+		font-size: $h2-xl-desktop-futura-size;
+		line-height: $h2-xl-desktop-futura-line-height;
 		span {
-			font-size: $h2-desktop-futura-size;
-			line-height: $h2-desktop-futura-line-height;
+			font-size: $h2-xl-desktop-futura-size;
+			line-height: $h2-xl-desktop-futura-line-height;
 		}
 	}
 	h3 {
-		font-size: $h3-desktop-futura-size;
-		line-height: $h3-desktop-futura-line-height;
+		font-size: $h3-xl-desktop-futura-size;
+		line-height: $h3-xl-desktop-futura-line-height;
 		span {
-			font-size: $h3-desktop-futura-size;
-			line-height: $h3-desktop-futura-line-height;
+			font-size: $h3-xl-desktop-futura-size;
+			line-height: $h3-xl-desktop-futura-line-height;
 		}
 	}
 	h4 {
-		font-size: $h4-desktop-futura-size;
-		line-height: $h4-desktop-futura-line-height;
+		font-size: $h4-xl-desktop-futura-size;
+		line-height: $h4-xl-desktop-futura-line-height;
 		span {
-			font-size: $h4-desktop-futura-size;
-			line-height: $h4-desktop-futura-line-height;
+			font-size: $h4-xl-desktop-futura-size;
+			line-height: $h4-xl-desktop-futura-line-height;
 		}
 	}
 	h5 {
-		font-size: $h5-desktop-futura-size;
-		line-height: $h5-desktop-futura-line-height;
+		font-size: $h5-xl-desktop-futura-size;
+		line-height: $h5-xl-desktop-futura-line-height;
 		span {
-			font-size: $h5-desktop-futura-size;
-			line-height: $h5-desktop-futura-line-height;
+			font-size: $h5-xl-desktop-futura-size;
+			line-height: $h5-xl-desktop-futura-line-height;
 		}
 	}
 	h6 {
-		font-size: $h6-desktop-futura-size;
-		line-height: $h6-desktop-futura-line-height;
+		font-size: $h6-xl-desktop-futura-size;
+		line-height: $h6-xl-desktop-futura-line-height;
 		span {
-			font-size: $h6-desktop-futura-size;
-			line-height: $h6-desktop-futura-line-height;
+			font-size: $h6-xl-desktop-futura-size;
+			line-height: $h6-xl-desktop-futura-line-height;
 		}
 	}
 	div,p,span {
-		font-size: $paragraph-desktop-proxima-size;
-		line-height: $paragraph-desktop-proxima-line-height;
+		font-size: $paragraph-xl-desktop-proxima-size;
+		line-height: $paragraph-xl-desktop-proxima-line-height;
 	}
 	figcaption {
-		font-size: $caption-desktop-proxima-size;
-		line-height: $caption-desktop-proxima-line-height;
+		font-size: $caption-xl-desktop-proxima-size;
+		line-height: $caption-xl-desktop-proxima-line-height;
 	}
 } 
 
